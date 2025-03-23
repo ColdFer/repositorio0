@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    height: 60px; /* Ajusta la altura del footer según tus necesidades */
+    background-color: #343a40; /* Color de fondo del footer */
+    color: white; /* Color del texto */
+    text-align: center; /* Centrar el texto */
+    margin-top: auto; /* Esto empuja el footer hacia abajo */
+    padding: 10px 0; /* Espaciado interno */
+}
